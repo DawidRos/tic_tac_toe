@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/github/tic_tac_toe/coord.cpp
+coord.h
+C:/github/tic_tac_toe/coord.h
+iostream
+-
+cctype
+-
+
+C:/github/tic_tac_toe/coord.h
+iostream
+-
+string
+-
+
+C:/github/tic_tac_toe/main.cpp
+iostream
+-
+string
+-
+ctime
+-
+coord.cpp
+C:/github/tic_tac_toe/coord.cpp
+
