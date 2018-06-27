@@ -59,39 +59,39 @@ CMAKE_SOURCE_DIR = C:\github\tic_tac_toe
 CMAKE_BINARY_DIR = C:\github\tic_tac_toe\cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/1_1.dir
+# Target rules for target CMakeFiles/kik2_0.dir
 
 # All Build rule for target.
-CMakeFiles/1_1.dir/all:
-	$(MAKE) -f CMakeFiles\1_1.dir\build.make CMakeFiles/1_1.dir/depend
-	$(MAKE) -f CMakeFiles\1_1.dir\build.make CMakeFiles/1_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\github\tic_tac_toe\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target 1_1"
-.PHONY : CMakeFiles/1_1.dir/all
+CMakeFiles/kik2_0.dir/all:
+	$(MAKE) -f CMakeFiles\kik2_0.dir\build.make CMakeFiles/kik2_0.dir/depend
+	$(MAKE) -f CMakeFiles\kik2_0.dir\build.make CMakeFiles/kik2_0.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\github\tic_tac_toe\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5 "Built target kik2_0"
+.PHONY : CMakeFiles/kik2_0.dir/all
 
 # Include target in all.
-all: CMakeFiles/1_1.dir/all
+all: CMakeFiles/kik2_0.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/1_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\github\tic_tac_toe\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/1_1.dir/all
+CMakeFiles/kik2_0.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\github\tic_tac_toe\cmake-build-debug\CMakeFiles 5
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/kik2_0.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\github\tic_tac_toe\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/1_1.dir/rule
+.PHONY : CMakeFiles/kik2_0.dir/rule
 
 # Convenience name for target.
-1_1: CMakeFiles/1_1.dir/rule
+kik2_0: CMakeFiles/kik2_0.dir/rule
 
-.PHONY : 1_1
-
-# clean rule for target.
-CMakeFiles/1_1.dir/clean:
-	$(MAKE) -f CMakeFiles\1_1.dir\build.make CMakeFiles/1_1.dir/clean
-.PHONY : CMakeFiles/1_1.dir/clean
+.PHONY : kik2_0
 
 # clean rule for target.
-clean: CMakeFiles/1_1.dir/clean
+CMakeFiles/kik2_0.dir/clean:
+	$(MAKE) -f CMakeFiles\kik2_0.dir\build.make CMakeFiles/kik2_0.dir/clean
+.PHONY : CMakeFiles/kik2_0.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/kik2_0.dir/clean
 
 .PHONY : clean
 

@@ -110,17 +110,98 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 1_1
+# Target rules for targets named kik2_0
 
 # Build rule for target.
-1_1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 1_1
-.PHONY : 1_1
+kik2_0: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 kik2_0
+.PHONY : kik2_0
 
 # fast build rule for target.
-1_1/fast:
-	$(MAKE) -f CMakeFiles\1_1.dir\build.make CMakeFiles/1_1.dir/build
-.PHONY : 1_1/fast
+kik2_0/fast:
+	$(MAKE) -f CMakeFiles\kik2_0.dir\build.make CMakeFiles/kik2_0.dir/build
+.PHONY : kik2_0/fast
+
+coordc/coordc.obj: coordc/coordc.cpp.obj
+
+.PHONY : coordc/coordc.obj
+
+# target to build an object file
+coordc/coordc.cpp.obj:
+	$(MAKE) -f CMakeFiles\kik2_0.dir\build.make CMakeFiles/kik2_0.dir/coordc/coordc.cpp.obj
+.PHONY : coordc/coordc.cpp.obj
+
+coordc/coordc.i: coordc/coordc.cpp.i
+
+.PHONY : coordc/coordc.i
+
+# target to preprocess a source file
+coordc/coordc.cpp.i:
+	$(MAKE) -f CMakeFiles\kik2_0.dir\build.make CMakeFiles/kik2_0.dir/coordc/coordc.cpp.i
+.PHONY : coordc/coordc.cpp.i
+
+coordc/coordc.s: coordc/coordc.cpp.s
+
+.PHONY : coordc/coordc.s
+
+# target to generate assembly for a file
+coordc/coordc.cpp.s:
+	$(MAKE) -f CMakeFiles\kik2_0.dir\build.make CMakeFiles/kik2_0.dir/coordc/coordc.cpp.s
+.PHONY : coordc/coordc.cpp.s
+
+coordp/coordp.obj: coordp/coordp.cpp.obj
+
+.PHONY : coordp/coordp.obj
+
+# target to build an object file
+coordp/coordp.cpp.obj:
+	$(MAKE) -f CMakeFiles\kik2_0.dir\build.make CMakeFiles/kik2_0.dir/coordp/coordp.cpp.obj
+.PHONY : coordp/coordp.cpp.obj
+
+coordp/coordp.i: coordp/coordp.cpp.i
+
+.PHONY : coordp/coordp.i
+
+# target to preprocess a source file
+coordp/coordp.cpp.i:
+	$(MAKE) -f CMakeFiles\kik2_0.dir\build.make CMakeFiles/kik2_0.dir/coordp/coordp.cpp.i
+.PHONY : coordp/coordp.cpp.i
+
+coordp/coordp.s: coordp/coordp.cpp.s
+
+.PHONY : coordp/coordp.s
+
+# target to generate assembly for a file
+coordp/coordp.cpp.s:
+	$(MAKE) -f CMakeFiles\kik2_0.dir\build.make CMakeFiles/kik2_0.dir/coordp/coordp.cpp.s
+.PHONY : coordp/coordp.cpp.s
+
+fu/fu.obj: fu/fu.cpp.obj
+
+.PHONY : fu/fu.obj
+
+# target to build an object file
+fu/fu.cpp.obj:
+	$(MAKE) -f CMakeFiles\kik2_0.dir\build.make CMakeFiles/kik2_0.dir/fu/fu.cpp.obj
+.PHONY : fu/fu.cpp.obj
+
+fu/fu.i: fu/fu.cpp.i
+
+.PHONY : fu/fu.i
+
+# target to preprocess a source file
+fu/fu.cpp.i:
+	$(MAKE) -f CMakeFiles\kik2_0.dir\build.make CMakeFiles/kik2_0.dir/fu/fu.cpp.i
+.PHONY : fu/fu.cpp.i
+
+fu/fu.s: fu/fu.cpp.s
+
+.PHONY : fu/fu.s
+
+# target to generate assembly for a file
+fu/fu.cpp.s:
+	$(MAKE) -f CMakeFiles\kik2_0.dir\build.make CMakeFiles/kik2_0.dir/fu/fu.cpp.s
+.PHONY : fu/fu.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -128,7 +209,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\1_1.dir\build.make CMakeFiles/1_1.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\kik2_0.dir\build.make CMakeFiles/kik2_0.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -137,7 +218,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\1_1.dir\build.make CMakeFiles/1_1.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\kik2_0.dir\build.make CMakeFiles/kik2_0.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -146,7 +227,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\1_1.dir\build.make CMakeFiles/1_1.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\kik2_0.dir\build.make CMakeFiles/kik2_0.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -155,9 +236,18 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... kik2_0
 	@echo ... edit_cache
-	@echo ... 1_1
 	@echo ... rebuild_cache
+	@echo ... coordc/coordc.obj
+	@echo ... coordc/coordc.i
+	@echo ... coordc/coordc.s
+	@echo ... coordp/coordp.obj
+	@echo ... coordp/coordp.i
+	@echo ... coordp/coordp.s
+	@echo ... fu/fu.obj
+	@echo ... fu/fu.i
+	@echo ... fu/fu.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

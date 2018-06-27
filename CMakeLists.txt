@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
-project(1_1)
+project(kik2_0)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 
-add_executable(1_1 main.cpp)
+add_executable(kik2_0 main.cpp coordp/coordp.cpp coordc/coordc.cpp fu/fu.cpp)
